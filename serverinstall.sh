@@ -24,14 +24,3 @@ mv server.jar minecraft_server_1.20.1.jar
 # Step 8: Start a 'screen' session
 screen -S minecraft
 
-# Step 9: Start the Minecraft server and generate EULA
-java -Xms1024M -Xmx1024M -jar minecraft_server_1.20.1.jar nogui
-
-# Step 10: Modify EULA to accept terms
-sed -i 's/eula=false/eula=true/g' eula.txt
-
-# Reminder for user
-echo "Remember to keep your screen instance active by detaching (Ctrl + A + D)."
-echo "You can edit the server properties by editing the server.properties file with nano."
-echo "When you are ready to start your server, simply re-run:"
-echo "java -Xms1024M -Xmx1024M -jar minecraft_server_1.20.1.jar nogui."
