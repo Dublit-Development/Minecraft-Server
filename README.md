@@ -14,9 +14,9 @@ This bash script automates the process of installing a Minecraft server on a Deb
 2. Change into the repository directory:
   `cd your-repo-name`
 3. Make the script executable
-  `chmod +x install_minecraft_server.sh`
+  `chmod +x serverinstall.sh`
 4. Run the installation script with sudo privileges
-   `sudo ./install_minecraft_server.sh`
+   `sudo ./serverinstall.sh`
 
 ## Usage
 1. After running the script, follow the prompts to install OpenJDK, 'screen', and set up the server.
