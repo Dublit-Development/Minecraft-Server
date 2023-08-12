@@ -10,7 +10,7 @@ This bash script automates the process of installing a Minecraft server on a Deb
 ## Installation
 
 1. Clone this repository to your local machine:
-   `git clone https://github.com/your-username/your-repo-name.git`
+   `git clone https://github.com/Dublit-Development/Minecraft-Server.git`
 2. Change into the repository directory:
   `cd your-repo-name`
 3. Make the script executable
