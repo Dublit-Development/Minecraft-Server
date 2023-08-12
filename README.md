@@ -13,10 +13,10 @@ This bash script automates the process of installing a Minecraft server on a Deb
    `git clone https://github.com/Dublit-Development/Minecraft-Server.git`
 2. Change into the repository directory:
   `cd your-repo-name`
-3. Make the script executable
-  `chmod +x serverinstall.sh`
-4. Run the installation script with sudo privileges
-   `sudo ./serverinstall.sh`
+3. Make the scripts executable
+  `chmod +x serverinstall.sh` and `chmod +x serverinstall.sh`
+4. Run the installation script with sudo privileges (Run prerequisites.sh first)
+   `sudo ./prerequisites.sh` `sudo ./serverinstall.sh`
 
 ## Usage
 1. After running the script, follow the prompts to install OpenJDK, 'screen', and set up the server.
