@@ -14,7 +14,7 @@ This bash script automates the process of installing a Minecraft server on a Deb
 2. Change into the repository directory:
   `cd your-repo-name`
 3. Make the scripts executable
-  `chmod +x serverinstall.sh` and `chmod +x serverinstall.sh`
+  `chmod +x serverinstall.sh` and `chmod +x prerequisites.sh`
 4. Run the installation script with sudo privileges (Run prerequisites.sh first)
    `sudo ./prerequisites.sh` `sudo ./serverinstall.sh`
 
