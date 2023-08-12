@@ -3,6 +3,10 @@
 
 This bash script automates the process of installing a Minecraft server on a Debian-based system. It installs the required dependencies, sets up the server, and provides guidance on managing it.
 
+## Install git
+1. Install git
+   `sudo apt install git`
+
 ## Installation
 
 1. Clone this repository to your local machine:
