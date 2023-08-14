@@ -32,6 +32,17 @@ This bash script automates the process of installing a Minecraft server on a Deb
 Then start the server with:
 `java -Xms1024M -Xmx1024M -jar minecraft_server_1.20.1.jar nogui`
 
+## Backup and Restore Server Files (Optional)
+#### If you are interested in backing up your server files to an compatiable object storage using the AWSCLI: 
+
+Install AWSCLI and configure credentials:
+
+`sudo ./awsCLI_configure.sh`
+
+Upload to S3
+
+`sudo ./upload_to_s3.sh`
+
 ## Reminder
 Remember to keep your 'screen' instance active by detaching (Ctrl + A + D) when not actively working in it. For further server starts, re-run the command provided in step 4 above.
 
