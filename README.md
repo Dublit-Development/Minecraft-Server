@@ -54,5 +54,5 @@ Disclaimer: Always review scripts and instructions before executing them on your
 
 Compute and Virtual Machine Instances:  [Valdi](https://valdi.ai/signup?ref=YZl7RDQZ)
 
-Object Store Provider:  [Storj](storj.io)
+Object Store Provider:  [Storj](https://storj.io)
 
