@@ -53,6 +53,10 @@ Then start the server with:
 
 `java -Xms1024M -Xmx1024M -jar minecraft_server_1.20.1.jar nogui`
 
+Shutdown the screen socket
+
+`screen -X -S minecraft quit`
+
 ## Backup and Restore Server Files (Optional)
 #### If you are interested in backing up your server files to an compatiable object storage using the AWSCLI: 
 
