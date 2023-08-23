@@ -81,7 +81,7 @@ while true; do
         sudo apt-get install -y python3
 
         # Install pip
-        sudo python3 -m pip install --upgrade pip
+        sudo apt install python3-pip
 
         # Install awscli-plugin-endpoint
         sudo pip install awscli-plugin-endpoint
