@@ -56,13 +56,13 @@ Then start the server with:
 ## Backup and Restore Server Files (Optional)
 #### If you are interested in backing up your server files to an compatiable object storage using the AWSCLI: 
 
-Install AWSCLI and configure credentials:
+Make scripts executable
 
-`sudo ./awsCLI_configure.sh`
+`chmod +x upload.sh`
 
-Upload to S3
+Run the script:  It is important to note you only need to run AWSCLI installation and awscli-endpoint-plugin once.  It defualts to a storj endpoint.  In the script just answer "yes" when it asks you to upload to storj after configureing both tools.
 
-`sudo ./upload_to_s3.sh`
+`./upload.sh`
 
 ## Reminder
 Remember to keep your 'screen' instance active by detaching (Ctrl + A + D) when not actively working in it. For further server starts, re-run the command provided in step 4 above.
