@@ -77,14 +77,14 @@ while true; do
         exit 0
     elif [[ "$response_script_3" == "yes" ]]; then
         # Install Python
-        apt-get update
-        apt-get install -y python3
+        sudo apt-get update
+        sudo apt-get install -y python3
 
         # Install pip
-        python3 -m pip install --upgrade pip
+        sudo python3 -m pip install --upgrade pip
 
         # Install awscli-plugin-endpoint
-        pip install awscli-plugin-endpoint
+        sudo pip install awscli-plugin-endpoint
 
         # Enable awscli-plugin-endpoint
         aws configure set plugins.endpoint awscli_plugin_endpoint
