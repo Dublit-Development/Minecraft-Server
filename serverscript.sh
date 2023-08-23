@@ -38,7 +38,7 @@ while true; do
     fi
 
     # Part two - Serverinstall.sh
-    echo "Do you want to install the Minecraft server? (yes/no/exit): "
+    echo "Do you want to configure the Minecraft server? (yes/no/exit): "
     read response_part_two
 
     if [[ "$response_part_two" == "exit" ]]; then
