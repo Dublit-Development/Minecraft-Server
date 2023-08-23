@@ -20,7 +20,3 @@ wget https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba5990
 
 # Step 7: Rename the downloaded JAR
 mv server.jar minecraft_server_1.20.1.jar
-
-# Step 8: Start a 'screen' session
-screen -S minecraft
-
